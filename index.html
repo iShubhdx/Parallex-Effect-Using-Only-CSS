@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Parallax</title>
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="main">
+	<!-- <div class="light"></div> -->
+		<div class="header">
+			<div class="container">
+				<div class="logo">
+					<h1>Parralax Design</h1>
+				</div>
+				<div class="menu">
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Gallary</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Contact Us</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- Header over -->
+		<div class="section1">
+			<div class="container">
+				<h1 class="ftxt">A U T U M N</h1>
+				<p class="bytxt">by Shubh_dx</p>
+			</div>
+		</div>
+		
+		<div class="section2">
+			<div class="container">
+				<button class="ad1">View Image</button>
+			</div>
+		</div>
+
+		<div class="section3">
+			<div class="container">
+				<button class="ad2">View Image</button>
+			</div>
+		</div>
+
+		<div class="section4">
+			<div class="container">
+				<button class="ad3">View Image</button>
+			</div>
+		</div>
+
+		<div class="section5">
+			<div class="container">
+				<button class="ad4">View Image</button>
+			</div>
+		</div>
+
+		<div class="footer">
+			<h4 class="ftrtext">All Rights Are Reserved 2019 &copy; Shubham Joshi</h4>
+		</div>
+	</div>
+	<script type="text/javascript">
+		$(document).mousemove(function(s){ var X = s.pageX; var Y = s.pageY; $('.light').css('background','radial-gradient(circle at '+X+'px '+Y+'px, transparent, #000 30%)');
+		});		
+	</script>
+</body>
+</html>
